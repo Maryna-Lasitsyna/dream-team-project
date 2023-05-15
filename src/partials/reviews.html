@@ -1,0 +1,165 @@
+<section class="reviews-container" id="reviews">
+  <h2 class="title">Chocolate<span class="choco"> is loved</span></h2>
+  <div class="swiper-reviews">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <h3 class="swiper-slide-title">Victoria Dobrzhanska</h3>
+        <p class="swiper-slide-text">
+          I love this chocolate bar. Perfect combination of light crispy wafer,
+          covered in a thin layer chocolate.
+        </p>
+        <img
+          class="swiper-slide-img"
+          src="./img/Victoria_Dobrzhanska.png"
+          alt="Girl"
+          width="80"
+        />
+      </div>
+      <div class="swiper-slide">
+        <h3 class="swiper-slide-title">Nazar Babenko</h3>
+        <p class="swiper-slide-text">
+          This chocolate confection is a delight! A delight! The wafer is light
+          and crisp, the hazelnut cream is smooth, and the chocolate is good.
+        </p>
+        <img
+          class="swiper-slide-img"
+          src="./img/Nazar_Babenko.png"
+          alt="Boy"
+          width="80"
+        />
+      </div>
+      <div class="swiper-slide">
+        <h3 class="swiper-slide-title">Olena Kampusch</h3>
+        <p class="swiper-slide-text">
+          Chocolate is a family favourite treat. Love the delicious smooth
+          chocolate and the creaminess inside. The wafer is soft but crunchy.
+        </p>
+        <img
+          class="swiper-slide-img"
+          src="./img/Olena_Kampusch.png"
+          alt="Girl"
+          width="80"
+        />
+      </div>
+      <div class="swiper-slide">
+        <h3 class="swiper-slide-title">Irina Tydnyuk</h3>
+        <p class="swiper-slide-text">
+          This is simply the best chocolate around, and I'm just thrilled to
+          support a local company! Best local chocolate - world class :)
+        </p>
+        <img
+          class="swiper-slide-img"
+          src="./img/Irina_Tydnyuk.png"
+          alt="Boy"
+          width="80"
+        />
+      </div>
+      <div class="swiper-slide">
+        <h3 class="swiper-slide-title">Danilo Nottingham</h3>
+        <p class="swiper-slide-text">
+          This is delicious. It so rich and flavorful you don’t need to use as
+          many. I love topping an apple with almond butter and these chips for a
+          snack.
+        </p>
+        <img
+          class="swiper-slide-img"
+          src="./img/Danilo_Nottingham.png"
+          alt="Boy"
+          width="80"
+        />
+      </div>
+      <div class="swiper-slide">
+        <h3 class="swiper-slide-title">Natalia Sus</h3>
+        <p class="swiper-slide-text">
+          The chocolate assortment was delicious. Both dark and milk chocolate
+          pieces were smooth and just right on the sweetness level.
+        </p>
+        <img
+          class="swiper-slide-img"
+          src="./img/Natalia_Sus.png"
+          alt="Boy"
+          width="80"
+        />
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <button type="button" class="review-btn" data-menu-open>
+    Leave a review
+  </button>
+  <div class="backdrop is-hidden" data-menu>
+    <div class="modal">
+      <button type="button" class="modal-close" data-menu-close>
+        <svg class="modal-close-icon" width="24" height="24">
+          <use href="./public/icons.svg#icon-x"></use>
+        </svg>
+      </button>
+      <p class="modal-title">
+        Leave a review about <span class="title">our chocolate</span>
+      </p>
+      <form class="modal-form">
+        <div class="modal-field">
+          <label class="modal-input-text" for="name"></label>
+          <div class="input-wrap">
+            <input
+              type="text"
+              name="name"
+              class="modal-input"
+              id="name"
+              placeholder="Name"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="modal-field">
+          <label class="modal-input-text" for="email"></label>
+          <div class="input-wrap">
+            <input
+              aria-label="email"
+              type="email"
+              name="email"
+              class="modal-input"
+              id="email"
+              placeholder="Enter your email"
+            />
+          </div>
+
+          <div class="modal-field">
+            <label for="phone"></label>
+            <div class="input-wrap">
+              <input
+                type="tel"
+                name="phone"
+                class="modal-input input-tel"
+                id="phone"
+                placeholder="Phone number"
+                maxlength="9"
+                minlength="9"
+                required
+              />
+              <svg class="modal-icon" width="74" height="25">
+                <use href="./public/icons.svg#icon-Ukraine"></use>
+              </svg>
+              <span class="pre-phone">+380</span>
+            </div>
+          </div>
+        </div>
+        <div class="input-wrap-textarea">
+          <label class="modal-input-text" for="Comment"></label>
+          <textarea
+            class="modal-input-textarea"
+            name="modal-input-textarea"
+            placeholder="Text text"
+            id="Comment"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+        <button class="modal-button" type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+</section>

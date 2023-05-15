@@ -1,0 +1,234 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #111111;
+}
+
+.container {
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+
+/*============MADE========*/
+
+.made-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #111111;
+    margin-bottom: 32px;
+}
+
+.title-decor {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #FD9222;
+}
+
+.made-img-thumb {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.img-made{
+    margin: auto;
+}
+
+.made-icon {
+    stroke: #F5F4F4;
+    fill: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+
+.made-wrap {
+padding: 20px 14px;
+background-color: #ffffff;
+border-radius: 15px;
+margin: 0 auto;
+
+}
+
+
+.about-made-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #111111;
+    margin-bottom: 20px;
+}
+
+.made-item {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.made-list {
+    padding-left: 8px;
+}
+
+
+.made-list::marker {
+    font-size: 28px;
+    content: "•";
+    color: #4C4C4C;
+}
+
+
+.made-text {
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: #111111;
+}
+
+
+/*======================================MOBOLE-CSS-MADE=====================================*/
+
+@media screen and (min-width: 375px) {
+    .container {
+        max-width: 375px;
+    }
+}
+
+/*======================================TABLET-CSS-MADE=====================================*/
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+
+    .container-made {
+        padding: 0px 77px;
+    }
+
+    .made-title {
+        font-size: 24px;
+        line-height: 1.16;
+    }
+
+    .title-decor {
+        font-size: 24px;
+        line-height: 1.16;
+    }
+
+    .made-img-thumb {
+        margin-bottom: 52px;
+    }
+
+    .made-icon {
+        width: 44px;
+        height: 44px;
+    }
+
+    .img-made {
+        margin: 0 auto;
+    }
+
+    .made-wrap {
+        padding: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 614px;
+    }
+
+    .about-made-title {
+        width: 350px;
+    }
+
+}
+
+/*======================================DESKTOP-CSS-MADE=====================================*/
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    .container.container-made {
+        padding: 0px 32px;
+    }
+
+    .wrap-made-basic {
+        display: flex;
+        gap: 20px;
+    }
+
+    .made-title {
+        margin-bottom: 50px;
+    }
+
+    .made-img-thumb {
+        margin-bottom: 0;
+    }
+
+    .made-icon {
+        top: 178px;
+        left: 278px;
+    }
+
+    .made-wrap {
+        padding: 32px;
+        width: 516px;
+    }
+
+    .about-made-title {
+        margin-bottom: 28px;
+    }
+
+    .made-item {
+        gap: 24px;
+    }
+
+    .made-list:first-child {
+        display: none;
+    }
+
+}

@@ -1,0 +1,18 @@
+@import url("advantages.css");
+@import url("components.css");
+@import url("footer.css");
+@import url("header.css");
+@import url("hero.css");
+@import url("made.css");
+@import url("products.css");
+@import url("reviews.css");
+@import url("subscribe.css");
+@import url("top-sellers.css");
+
+html{
+    scroll-behavior: auto;
+}
+
+body{
+    padding: 0;
+}
